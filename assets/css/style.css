@@ -61,22 +61,14 @@ figure {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/*Formats content below main figure*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Formats each individual box of content below the main figure*/
 .content section {
     margin-bottom: 20px;
     padding: 50px;
@@ -86,15 +78,30 @@ figure {
     color: #ffffff;
 }
 
+/*Sets max height of smaller images within the content area*/
 .content img {
     max-height: 200px;
 }
 
+/*Formats header of each box within the content section*/
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Moves content image left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Moves content image right*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Formats panel on right side below main image*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -107,21 +114,25 @@ figure {
     color: #ffffff;
 }
 
+/*Formats each individual portion of side panel*/
 .benefits div {
     margin-bottom: 32px;
 }
 
+/*Formats the header of each individual portion of side panel*/
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Formats images in side panel*/
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Formats footer*/
 footer {
     padding: 30px;
     clear: both;
@@ -129,6 +140,7 @@ footer {
     text-align: center;
 }
 
+/*Formats first line of text within the footer*/
 footer h2 {
     font-size: 20px;
 }
